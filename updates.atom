@@ -2,17 +2,17 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>CCSCodeStandard Updates</title>
   <id>urn:uuid:12345678-1234-1234-1234-123456789abc</id>
-  <updated>2025-08-15T06:41:48Z</updated>
+  <updated>2025-08-15T06:43:06Z</updated>
   <entry>
     <id>urn:uuid:d021c768-f5ad-4b6d-9f24-c258a06827cd</id>
     <title>CCSCodeStandard</title>
-    <updated>2025-08-15T06:41:48Z</updated>
+    <updated>2025-08-15T06:43:06Z</updated>
     <link rel="enclosure" href="https://rattcz.github.io/CCSCodeStandard.vsix" />
     <summary>Updated to version 1.0.0</summary>
     <Vsix xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011">
       <Id>CCSCodeStandard</Id>
       <Version>1.0.0</Version>
-      <Updated>2025-08-15T06:41:48Z</Updated>
+      <Updated>2025-08-15T06:43:06Z</Updated>
     </Vsix>
   </entry>
 </feed>
