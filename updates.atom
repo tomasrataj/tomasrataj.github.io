@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <title>CCSCodeStandard Updates</title>
-  <id>urn:uuid:12345678-1234-1234-1234-123456789abc</id>
-  <updated>2025-08-15T19:39:06Z</updated>
+  <id>https://rattcz.github.io/updates.atom</id>
+  <updated>2025-08-15T19:48:47Z</updated>
   <entry>
     <id>https://rattcz.github.io/CCSCodeStandard/1.0.7</id>
     <title type="text">CCSCodeStandard</title>
-    <updated>2025-08-15T19:39:06Z</updated>
-    <published>2025-08-15T19:39:06Z</published>
+    <updated>2025-08-15T19:48:47Z</updated>
+    <published>2025-08-15T19:48:47Z</published>
     <author>
       <name>ratajt</name>
     </author>
@@ -31,11 +31,11 @@
       <Id>CCSCodeStandard</Id>
       <Version>1.0.7</Version>
       <References />
-      <Rating p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
-      <RatingCount p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
-      <DownloadCount p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
-      <Published>2025-08-15T19:39:06Z</Published>
-      <LastUpdated>2025-08-15T19:39:06Z</LastUpdated>
+      <Rating xsi:nil="true" />
+      <RatingCount xsi:nil="true" />
+      <DownloadCount xsi:nil="true" />
+      <Published>2025-08-15T19:48:47Z</Published>
+      <LastUpdated>2025-08-15T19:48:47Z</LastUpdated>
       <InstalledByMsi>false</InstalledByMsi>
       <SupportedProducts>
         <VisualStudio Version="16.0">
