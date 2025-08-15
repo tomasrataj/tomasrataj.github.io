@@ -2,12 +2,12 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <title>CCSCodeStandard Updates</title>
   <id>https://rattcz.github.io/updates.atom</id>
-  <updated>2025-08-15T20:13:26Z</updated>
+  <updated>2025-08-15T20:15:16Z</updated>
   <entry>
     <id>https://rattcz.github.io/CCSCodeStandard/1.0.7</id>
     <title type="text">CCSCodeStandard</title>
-    <updated>2025-08-15T20:13:26Z</updated>
-    <published>2025-08-15T20:13:26Z</published>
+    <updated>2025-08-15T20:15:16Z</updated>
+    <published>2025-08-15T20:15:16Z</published>
     <author>
       <name>ratajt</name>
     </author>
@@ -34,8 +34,8 @@
       <Rating xsi:nil="true" />
       <RatingCount xsi:nil="true" />
       <DownloadCount xsi:nil="true" />
-      <Published>2025-08-15T20:13:26Z</Published>
-      <LastUpdated>2025-08-15T20:13:26Z</LastUpdated>
+      <Published>2025-08-15T20:15:16Z</Published>
+      <LastUpdated>2025-08-15T20:15:16Z</LastUpdated>
       <InstalledByMsi>false</InstalledByMsi>
       <SupportedProducts>
         <VisualStudio Version="16.0">
