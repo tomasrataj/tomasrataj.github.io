@@ -2,19 +2,19 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>CCSCodeStandard Updates</title>
   <id>urn:uuid:12345678-1234-1234-1234-123456789abc</id>
-  <updated>2025-08-15T18:57:45Z</updated>
+  <updated>2025-08-15T19:16:56Z</updated>
   <entry>
-    <id>urn:uuid:7c225603-7b03-4a89-886b-c0ebad91b748</id>
+    <id>urn:uuid:fe885d4a-cf30-463b-81bf-8a6fec79c8e0</id>
     <title>CCSCodeStandard</title>
-    <updated>2025-08-15T18:57:45Z</updated>
+    <updated>2025-08-15T19:16:56Z</updated>
     <author>
       <name>ratajt</name>
     </author>
     <category term="Roslyn Analyzer" />
     <link rel="enclosure" type="application/vsix" href="https://rattcz.github.io/CCSCodeStandard.vsix" />
-    <summary>Updated to version 1.0.6</summary>
+    <summary>Updated to version 1.0.7</summary>
     <content type="html"><![CDATA[
-    <p>Updated to version 1.0.6 of CCSCodeStandard. Changes include:</p>
+    <p>Updated to version 1.0.7 of CCSCodeStandard. Changes include:</p>
     <ul>
     <li>Enforcing type-based variable name prefixes (e.g., str for String, int for Integer, gc for constants)</li>
     <li>Automatic code fixes to rename variables to the correct prefix</li>
@@ -27,8 +27,8 @@
 ]]></content>
     <Vsix xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011">
       <Id>CCSCodeStandard</Id>
-      <Version>1.0.6</Version>
-      <Published>2025-08-15T18:57:45Z</Published>
+      <Version>1.0.7</Version>
+      <Published>2025-08-15T19:16:56Z</Published>
       <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[16.0,19.0)" />
       <InstallationTarget Id="Microsoft.VisualStudio.Professional" Version="[16.0,19.0)" />
       <InstallationTarget Id="Microsoft.VisualStudio.Enterprise" Version="[16.0,19.0)" />
