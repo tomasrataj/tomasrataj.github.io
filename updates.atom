@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>CCSCodeStandard Updates</title>
   <id>urn:uuid:12345678-1234-1234-1234-123456789abc</id>
-  <updated>2025-08-15T18:54:55Z</updated>
+  <updated>2025-08-15T18:57:45Z</updated>
   <entry>
-    <id>urn:uuid:ff8fc017-fc47-4666-ae67-edf8ac348fa2</id>
+    <id>urn:uuid:7c225603-7b03-4a89-886b-c0ebad91b748</id>
     <title>CCSCodeStandard</title>
-    <updated>2025-08-15T18:54:55Z</updated>
+    <updated>2025-08-15T18:57:45Z</updated>
     <author>
       <name>ratajt</name>
     </author>
@@ -28,10 +28,10 @@
     <Vsix xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011">
       <Id>CCSCodeStandard</Id>
       <Version>1.0.6</Version>
-      <Published>2025-08-15T18:54:55Z</Published>
-      <InstallationTarget Id="Microsoft.VisualStudio.Product.Community" Version="[16.0,18.0)" />
-      <InstallationTarget Id="Microsoft.VisualStudio.Product.Professional" Version="[16.0,18.0)" />
-      <InstallationTarget Id="Microsoft.VisualStudio.Product.Enterprise" Version="[16.0,18.0)" />
+      <Published>2025-08-15T18:57:45Z</Published>
+      <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[16.0,19.0)" />
+      <InstallationTarget Id="Microsoft.VisualStudio.Professional" Version="[16.0,19.0)" />
+      <InstallationTarget Id="Microsoft.VisualStudio.Enterprise" Version="[16.0,19.0)" />
     </Vsix>
   </entry>
 </feed>
