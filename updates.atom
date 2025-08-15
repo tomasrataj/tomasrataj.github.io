@@ -2,17 +2,19 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>CCSCodeStandard Updates</title>
   <id>urn:uuid:12345678-1234-1234-1234-123456789abc</id>
-  <updated>2025-08-15T19:16:56Z</updated>
+  <updated>2025-08-15T19:39:06Z</updated>
   <entry>
-    <id>urn:uuid:fe885d4a-cf30-463b-81bf-8a6fec79c8e0</id>
-    <title>CCSCodeStandard</title>
-    <updated>2025-08-15T19:16:56Z</updated>
+    <id>https://rattcz.github.io/CCSCodeStandard/1.0.7</id>
+    <title type="text">CCSCodeStandard</title>
+    <updated>2025-08-15T19:39:06Z</updated>
+    <published>2025-08-15T19:39:06Z</published>
     <author>
       <name>ratajt</name>
     </author>
+    <category term="Tools" scheme="http://schemas.microsoft.com/developer/vsx-schema/categories" />
     <category term="Roslyn Analyzer" />
-    <link rel="enclosure" type="application/vsix" href="https://rattcz.github.io/CCSCodeStandard.vsix" />
-    <summary>Updated to version 1.0.7</summary>
+    <link rel="enclosure" type="application/vsix" href="https://rattcz.github.io/CCSCodeStandard.vsix" length="0" />
+    <summary type="text">Updated to version 1.0.7</summary>
     <content type="html"><![CDATA[
     <p>Updated to version 1.0.7 of CCSCodeStandard. Changes include:</p>
     <ul>
@@ -28,10 +30,35 @@
     <Vsix xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011">
       <Id>CCSCodeStandard</Id>
       <Version>1.0.7</Version>
-      <Published>2025-08-15T19:16:56Z</Published>
-      <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[16.0,19.0)" />
-      <InstallationTarget Id="Microsoft.VisualStudio.Professional" Version="[16.0,19.0)" />
-      <InstallationTarget Id="Microsoft.VisualStudio.Enterprise" Version="[16.0,19.0)" />
+      <References />
+      <Rating p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <RatingCount p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <DownloadCount p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <Published>2025-08-15T19:39:06Z</Published>
+      <LastUpdated>2025-08-15T19:39:06Z</LastUpdated>
+      <InstalledByMsi>false</InstalledByMsi>
+      <SupportedProducts>
+        <VisualStudio Version="16.0">
+          <Edition>IntegratedShell</Edition>
+          <Edition>Professional</Edition>
+          <Edition>Premium</Edition>
+          <Edition>Ultimate</Edition>
+          <Edition>VWDExpress</Edition>
+          <Edition>VCSExpress</Edition>
+          <Edition>Community</Edition>
+          <Edition>Enterprise</Edition>
+        </VisualStudio>
+        <VisualStudio Version="17.0">
+          <Edition>Community</Edition>
+          <Edition>Professional</Edition>
+          <Edition>Enterprise</Edition>
+        </VisualStudio>
+      </SupportedProducts>
+      <InstallationTargets>
+        <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[16.0,18.0)" />
+        <InstallationTarget Id="Microsoft.VisualStudio.Professional" Version="[16.0,18.0)" />
+        <InstallationTarget Id="Microsoft.VisualStudio.Enterprise" Version="[16.0,18.0)" />
+      </InstallationTargets>
     </Vsix>
   </entry>
 </feed>
