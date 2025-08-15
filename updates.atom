@@ -2,21 +2,33 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>CCSCodeStandard Updates</title>
   <id>urn:uuid:12345678-1234-1234-1234-123456789abc</id>
-  <updated>2025-08-15T18:25:07Z</updated>
+  <updated>2025-08-15T18:29:54Z</updated>
   <entry>
-    <id>urn:uuid:e56ef1e5-5bfd-4edd-a807-6de434db620f</id>
+    <id>urn:uuid:c0d84705-adea-40a6-a318-a240919e5503</id>
     <title>CCSCodeStandard</title>
-    <updated>2025-08-15T18:25:07Z</updated>
+    <updated>2025-08-15T18:29:54Z</updated>
     <author>
       <name>ratajt</name>
     </author>
     <category term="Roslyn Analyzer" />
     <link rel="enclosure" type="application/vsix" href="https://rattcz.github.io/CCSCodeStandard.vsix" />
     <summary>Updated to version 1.0.4</summary>
+    <content type="html"><![CDATA[
+    <p>Updated to version 1.0.4 of CCSCodeStandard. Changes include:</p>
+    <ul>
+    <li>Enforcing type-based variable name prefixes (e.g., str for String, int for Integer, gc for constants)</li>
+    <li>Automatic code fixes to rename variables to the correct prefix</li>
+    <li>Detection of missing 'As' clauses in variable declarations</li>
+    <li>Code actions to add missing type annotations automatically</li>
+    <li>Special handling for fields including public/private distinction and constants</li>
+    <li>Support for variable declarations, parameters, and ForEach loop control variables</li>
+    </ul>
+    <p>This update improves code readability, maintainability, and consistency across your codebase.</p>
+]]></content>
     <Vsix xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011">
       <Id>CCSCodeStandard</Id>
       <Version>1.0.4</Version>
-      <Published>2025-08-15T18:25:07Z</Published>
+      <Published>2025-08-15T18:29:54Z</Published>
     </Vsix>
   </entry>
 </feed>
