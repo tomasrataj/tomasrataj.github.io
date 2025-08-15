@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>CCSCodeStandard Updates</title>
+  <id>urn:uuid:12345678-1234-1234-1234-123456789abc</id>
+  <updated>2025-08-14T22:42:18Z</updated>
+
+  <entry>
+    <id>urn:uuid:d021c768-f5ad-4b6d-9f24-c258a06827cd</id>
+    <title>CCSCodeStandard</title>
+    <updated>2025-08-14T22:42:18Z</updated>
+    <link rel="enclosure" href="http://localhost/vsixupdates/CCSCodeStandard.vsix" />
+    <summary>Updated to version 1.0.1</summary>
+    <Vsix xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011">
+      <Id>CCSCodeStandard</Id>
+      <Version>1.0.1</Version>
+      <Updated>2025-08-14T22:42:18Z</Updated>
+    </Vsix>
+  </entry>
+</feed>
