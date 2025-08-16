@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <title type="text">CCSCodeStandard Updates</title>
+  <id>https://rattcz.github.io/updates.atom</id>
+  <updated>2025-08-16T08:16:18Z</updated>
+  <author>
+    <name>ratajt</name>
+  </author>
+  <entry>
+    <id>https://rattcz.github.io/CCSCodeStandard/1.0.0</id>
+    <title type="text">CCSCodeStandard</title>
+    <updated>2025-08-16T08:16:18Z</updated>
+    <published>2025-08-16T08:16:18Z</published>
+    <author>
+      <name>ratajt</name>
+    </author>
+    <category term="Tools" scheme="http://schemas.microsoft.com/developer/vsx-schema/categories" />
+    <category term="Roslyn Analyzer" />
+    <link rel="enclosure" type="application/vsix" href="https://rattcz.github.io/CCSCodeStandard.vsix" length="0" />
+    <summary type="text">Updated to version 1.0.0</summary>
+    <content type="html"><![CDATA[
+    <p>Updated to version 1.0.0 of CCSCodeStandard. Changes include:</p>
+    <ul>
+    <li>Enforcing type-based variable name prefixes (e.g., str for String, int for Integer, gc for constants)</li>
+    <li>Automatic code fixes to rename variables to the correct prefix</li>
+    <li>Detection of missing 'As' clauses in variable declarations</li>
+    <li>Code actions to add missing type annotations automatically</li>
+    <li>Special handling for fields including public/private distinction and constants</li>
+    <li>Support for variable declarations, parameters, and ForEach loop control variables</li>
+    </ul>
+    <p>This update improves code readability, maintainability, and consistency across your codebase.</p>
+]]></content>
+    <Vsix xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011">
+      <Id>CCSCodeStandard</Id>
+      <Version>1.0.0</Version>
+      <References />
+      <Rating xsi:nil="true" />
+      <RatingCount xsi:nil="true" />
+      <DownloadCount xsi:nil="true" />
+      <Published>2025-08-16T08:16:18Z</Published>
+      <LastUpdated>2025-08-16T08:16:18Z</LastUpdated>
+      <InstalledByMsi>false</InstalledByMsi>
+      <SupportedProducts>
+        <VisualStudio Version="16.0">
+          <Edition>IntegratedShell</Edition>
+          <Edition>Professional</Edition>
+          <Edition>Premium</Edition>
+          <Edition>Ultimate</Edition>
+          <Edition>VWDExpress</Edition>
+          <Edition>VCSExpress</Edition>
+          <Edition>Community</Edition>
+          <Edition>Enterprise</Edition>
+        </VisualStudio>
+        <VisualStudio Version="17.0">
+          <Edition>Community</Edition>
+          <Edition>Professional</Edition>
+          <Edition>Enterprise</Edition>
+        </VisualStudio>
+      </SupportedProducts>
+      <InstallationTargets>
+        <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[16.0,18.0)" />
+        <InstallationTarget Id="Microsoft.VisualStudio.Professional" Version="[16.0,18.0)" />
+        <InstallationTarget Id="Microsoft.VisualStudio.Enterprise" Version="[16.0,18.0)" />
+      </InstallationTargets>
+    </Vsix>
+  </entry>
+</feed>
