@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <title type="text">CCSCodeStandard Updates</title>
   <id>https://rattcz.github.io/AtomFeed.xml</id>
-  <updated>2025-08-16T07:42:31Z</updated>
+  <updated>2025-08-16T07:44:49Z</updated>
   <entry>
     <id>https://rattcz.github.io/CCSCodeStandard..d021c768-f5ad-4b6d-9f24-c258a06827cd/1.0</id>
     <title type="text">CCSCodeStandard</title>
@@ -12,7 +12,7 @@
     <author>
       <name>ratajt</name>
     </author>
-    <content type="html" src="CCSCodeStandard.Vsix.vsix"><![CDATA[
+    <content type="html"><![CDATA[
     <p>Updated to version 1.0 of CCSCodeStandard. This Visual Studio extension provides:</p>
     <ul>
     <li>Enforcing type-based variable name prefixes (e.g., str for String, int for Integer, gc for constants)</li>
@@ -46,5 +46,6 @@
         <ProductArchitecture>notSpecified</ProductArchitecture>
       </Installations>
     </Vsix>
+    <link rel="enclosure" type="application/vsix" href="https://rattcz.github.io/CCSCodeStandard.vsix" length="0" />
   </entry>
 </feed>
