@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" 
+      xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <title>VSIX Gallery</title>
+  <id>5a7c2525-ddd8-4c44-b2e3-f57ba01a0d81</id>
+  <updated>2025-08-16T08:38:41Z</updated>
+  <subtitle>Add this feed to Visual Studio's extension manager from Tools -&gt; Options -&gt; Environment -&gt; Extensions and Updates</subtitle>
+  <link rel="alternate" href="feed.xml" />
+  <entry>
+    <id>CCSCodeStandard</id>
+    <title type="text">CCSCodeStandard</title>
+    <link rel="alternate" href="CCSCodeStandard.vsix" />
+    <summary type="text">
+		A custom Roslyn analyzer designed to help developers enforce consistent naming conventions in VB.NET projects.
+
+		Currently supports:
+			- Enforcing type-based variable name prefixes (e.g., str for String, int for Integer, gc for public constants)
+			- Automatic code fixes to rename variables to the correct prefix
+			- Detection of missing 'As' clauses in variable declarations
+			- Code actions to add missing type annotations automatically
+			- Special handling for fields including public/private distinction and constants
+			- Support for variable declarations, parameters, and ForEach loop control variables
+
+		This tool improves code readability, maintainability, and consistency across your team’s codebase.
+		More features and rules are planned for future updates to further enhance code quality and developer productivity.
+	</summary>
+    <published>2025-08-16T08:38:41Z</published>
+    <updated>2025-08-16T08:38:41Z</updated>
+    <author>
+      <name>ratajt</name>
+    </author>
+    <content type="application/octet-stream" src="https://rattcz.github.io/CCSCodeStandard.vsix" />
+<Vsix xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/developer/vsx-syndication-schema/2010">
+<Id>CCSCodeStandard</Id><Version>1.0.0</Version><References />
+<Rating xsi:nil="true" />
+<RatingCount xsi:nil="true" />
+<DownloadCount xsi:nil="true" />
+</Vsix></entry>
+</feed>
