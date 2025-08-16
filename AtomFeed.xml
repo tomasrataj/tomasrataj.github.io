@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <title type="text">CCSCodeStandard Updates</title>
+  <id>https://rattcz.github.io/AtomFeed.xml</id>
+  <updated>2025-08-16T07:25:12Z</updated>
+  <entry>
+    <id>https://rattcz.github.io/CCSCodeStandard..d021c768-f5ad-4b6d-9f24-c258a06827cd/1.0</id>
+    <title type="text">CCSCodeStandard</title>
+    <summary type="text">Updated to version 1.0 - Enforces VB.NET variable naming conventions with type-based prefixes</summary>
+    <published>2025-08-15T23:34:57+01:00</published>
+    <updated>2025-08-15T23:34:58+01:00</updated>
+    <author>
+      <name>ratajt</name>
+    </author>
+    <content type="html" src="CCSCodeStandard.Vsix.vsix"><![CDATA[
+    <p>Updated to version 1.0 of CCSCodeStandard. This Visual Studio extension provides:</p>
+    <ul>
+    <li>Enforcing type-based variable name prefixes (e.g., str for String, int for Integer, gc for constants)</li>
+    <li>Automatic code fixes to rename variables to the correct prefix</li>
+    <li>Detection of missing 'As' clauses in variable declarations</li>
+    <li>Code actions to add missing type annotations automatically</li>
+    <li>Special handling for fields including public/private distinction and constants</li>
+    <li>Support for variable declarations, parameters, and ForEach loop control variables</li>
+    </ul>
+    <p>This update improves code readability, maintainability, and consistency across your VB.NET codebase.</p>
+]]></content>
+    <Vsix xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.microsoft.com/developer/vsx-syndication-schema/2010">
+      <Id>CCSCodeStandard..d021c768-f5ad-4b6d-9f24-c258a06827cd</Id>
+      <Version>1.0</Version>
+      <Rating xsi:nil="true" />
+      <RatingCount xsi:nil="true" />
+      <DownloadCount xsi:nil="true" />
+      <Installations>
+        <Identifier>Microsoft.VisualStudio.Community</Identifier>
+        <VersionRange>[16.0,18.0)</VersionRange>
+        <ProductArchitecture>notSpecified</ProductArchitecture>
+      </Installations>
+      <Installations>
+        <Identifier>Microsoft.VisualStudio.Pro</Identifier>
+        <VersionRange>[16.0,18.0)</VersionRange>
+        <ProductArchitecture>notSpecified</ProductArchitecture>
+      </Installations>
+      <Installations>
+        <Identifier>Microsoft.VisualStudio.Enterprise</Identifier>
+        <VersionRange>[16.0,18.0)</VersionRange>
+        <ProductArchitecture>notSpecified</ProductArchitecture>
+      </Installations>
+    </Vsix>
+  </entry>
+</feed>
