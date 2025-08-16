@@ -4,7 +4,7 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <title>VSIX Gallery</title>
   <id>5a7c2525-ddd8-4c44-b2e3-f57ba01a0d81</id>
-  <updated>2025-08-16T17:42:36Z</updated>
+  <updated>2025-08-16T22:56:24Z</updated>
   <subtitle>Add this feed to Visual Studio's extension manager from Tools -&gt; Options -&gt; Environment -&gt; Extensions and Updates</subtitle>
   <link rel="alternate" href="feed.xml" />
   <entry>
@@ -13,16 +13,20 @@
     <link rel="alternate" href="CCSCodeStandard.vsix" />
     <summary type="html">
       <![CDATA[
-        <p>A <strong>custom Roslyn analyzer</strong> designed to help developers enforce consistent naming conventions.</p>
+        <p>A <strong>powerful Roslyn analyzer and code fix provider</strong> that enforces consistent VB.NET naming conventions and coding standards to improve code quality and team productivity.</p>
         <ul>
-          <li>Enforcing type-based variable name prefixes (e.g., str for String, int for Integer)</li>
-          <li>Automatic code fixes</li>
-          <li>Detection of missing 'As' clauses</li>
+          <li>Type-based prefixes for 40+ types (str for String, int for Integer, etc.)</li>
+          <li>Field modifiers with g/m prefixes and gc/mc for constants</li>
+          <li>Missing 'As' clause detection with automatic fixes</li>
+          <li>Default value initialization enforcement</li>
+          <li>Support for variables, fields, parameters, and ForEach loops</li>
+          <li>One-click bulk fixes for team-wide consistency</li>
         </ul>
+        <p><em>Compatible with Visual Studio 2019-2022 and .NET Framework projects</em></p>
       ]]>
     </summary>
-    <published>2025-08-16T17:42:36Z</published>
-    <updated>2025-08-16T17:42:36Z</updated>
+    <published>2025-08-16T22:56:24Z</published>
+    <updated>2025-08-16T22:56:24Z</updated>
     <author>
       <name>ratajt</name>
     </author>
