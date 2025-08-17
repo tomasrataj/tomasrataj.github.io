@@ -4,7 +4,7 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <title>VSIX Gallery</title>
   <id>5a7c2525-ddd8-4c44-b2e3-f57ba01a0d81</id>
-  <updated>2025-08-17T14:54:01Z</updated>
+  <updated>2025-08-17T20:43:01Z</updated>
   <subtitle>Add this feed to Visual Studio's extension manager from Tools -&gt; Options -&gt; Environment -&gt; Extensions and Updates</subtitle>
   <link rel="alternate" href="feed.xml" />
   <entry>
@@ -13,27 +13,28 @@
     <link rel="alternate" href="CCSCodeStandard.vsix" />
     <summary type="html">
       <![CDATA[
-        <p>A <strong>powerful Roslyn analyzer and code fix provider</strong> that enforces consistent VB.NET naming conventions and coding standards to improve code quality and team productivity.</p>
+        <p><strong>CCSCodeStandard</strong> enforces consistent VB.NET coding &amp; naming standards via Roslyn analyzers and automated fixes.</p>
+        <p>Core features:</p>
         <ul>
-          <li>Type-based prefixes for 40+ types (str for String, int for Integer, etc.)</li>
-          <li>Field modifiers with g/m prefixes and gc/mc for constants</li>
-          <li>Missing 'As' clause detection with automatic fixes</li>
-          <li>Missing 'dbo.' prefix detection for stored procedures with automatic fixes</li>
-          <li>Default value initialization enforcement</li>
-          <li>Support for variables, fields, parameters, and ForEach loops</li>
-          <li>One-click bulk fixes for team-wide consistency</li>
+          <li>Type based variable/field prefixes (int, str, dt, obj, etc.) with field/const modifiers (g/m, gc/mc)</li>
+          <li>Missing 'As' clause detection with quick + combined fixes</li>
+          <li>Automatic default value initialization (locals/fields)</li>
+          <li>Implicit For Each variable typing &amp; renaming (adds As &amp; correct prefix, updates usages)</li>
+          <li>SQL CommandText 'dbo.' prefix enforcement</li>
+          <li>Short name (len &lt;=3) expansion suggestions</li>
+          <li>Bulk Fix window: select / filter / apply &amp; save all fixes at once</li>
         </ul>
         <p><em>Compatible with Visual Studio 2019-2022 and .NET Framework projects</em></p>
       ]]>
     </summary>
-    <published>2025-08-17T14:54:01Z</published>
-    <updated>2025-08-17T14:54:01Z</updated>
+    <published>2025-08-17T20:43:01Z</published>
+    <updated>2025-08-17T20:43:01Z</updated>
     <author>
       <name>ratajt</name>
     </author>
     <content type="application/octet-stream" src="https://tomasrataj.github.io/CCSCodeStandard.vsix" />
 <Vsix xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/developer/vsx-syndication-schema/2010">
-<Id>CCSCodeStandard</Id><Version>1.0.11</Version><References />
+<Id>CCSCodeStandard</Id><Version>1.0.13</Version><References />
 <Rating xsi:nil="true" />
 <RatingCount xsi:nil="true" />
 <DownloadCount xsi:nil="true" />
