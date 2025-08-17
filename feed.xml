@@ -4,7 +4,7 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <title>VSIX Gallery</title>
   <id>5a7c2525-ddd8-4c44-b2e3-f57ba01a0d81</id>
-  <updated>2025-08-17T21:30:19Z</updated>
+  <updated>2025-08-17T21:30:45Z</updated>
   <subtitle>Add this feed to Visual Studio's extension manager from Tools -&gt; Options -&gt; Environment -&gt; Extensions and Updates</subtitle>
   <link rel="alternate" href="feed.xml" />
   <entry>
@@ -27,8 +27,8 @@
         <p><em>Compatible with Visual Studio 2019-2022 and .NET Framework projects</em></p>
       ]]>
     </summary>
-    <published>2025-08-17T21:30:19Z</published>
-    <updated>2025-08-17T21:30:19Z</updated>
+    <published>2025-08-17T21:30:45Z</published>
+    <updated>2025-08-17T21:30:45Z</updated>
     <author>
       <name>ratajt</name>
     </author>
