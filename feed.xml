@@ -4,7 +4,7 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <title>VSIX Gallery</title>
   <id>5a7c2525-ddd8-4c44-b2e3-f57ba01a0d81</id>
-  <updated>2025-08-30T20:43:00Z</updated>
+  <updated>2025-08-30T21:36:06Z</updated>
   <subtitle>Add this feed to Visual Studio's extension manager from Tools -&gt; Options -&gt; Environment -&gt; Extensions and Updates</subtitle>
   <link rel="alternate" href="feed.xml" />
   <entry>
@@ -34,14 +34,14 @@
         <p>Remember Ant is watching</p>
       ]]>
     </summary>
-    <published>2025-08-30T20:43:00Z</published>
-    <updated>2025-08-30T20:43:00Z</updated>
+    <published>2025-08-30T21:36:06Z</published>
+    <updated>2025-08-30T21:36:06Z</updated>
     <author>
       <name>ratajt</name>
     </author>
     <content type="application/octet-stream" src="https://tomasrataj.github.io/CCSCodeStandard.vsix" />
 <Vsix xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/developer/vsx-syndication-schema/2010">
-<Id>CCSCodeStandard</Id><Version>1.3.2</Version><References />
+<Id>CCSCodeStandard</Id><Version>1.3.3</Version><References />
 <Rating xsi:nil="true" />
 <RatingCount xsi:nil="true" />
 <DownloadCount xsi:nil="true" />
