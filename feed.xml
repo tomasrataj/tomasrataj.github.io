@@ -4,7 +4,7 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <title>VSIX Gallery</title>
   <id>5a7c2525-ddd8-4c44-b2e3-f57ba01a0d81</id>
-  <updated>2025-08-30T15:28:13Z</updated>
+  <updated>2025-08-30T15:34:07Z</updated>
   <subtitle>Add this feed to Visual Studio's extension manager from Tools -&gt; Options -&gt; Environment -&gt; Extensions and Updates</subtitle>
   <link rel="alternate" href="feed.xml" />
   <entry>
@@ -16,27 +16,26 @@
         <p><strong>CCSCodeStandard</strong> enforces consistent VB.NET coding &amp; naming standards via Roslyn analyzers and automated fixes.</p>
         <p>Core features:</p>
         <ul>
-          <li>Type based variable/field/parameter prefixes (int, str, dt, obj, etc.) with field/const modifiers (g/m, gc/mc)</li>
-          <li>Missing 'As' clause detection with quick + combined fixes</li>
-          <li>Automatic default value initialization (locals/fields)</li>
-          <li>Implicit For Each variable typing &amp; renaming (adds As &amp; correct prefix, updates usages)</li>
-          <li>SQL CommandText 'dbo.' prefix enforcement</li>
-          <li>Short name (len &lt;=3) expansion suggestions</li>
-          <li>Variable names with underscore detection &amp; fix recommendations</li>
-          <li>String literal standardization (replaces "" with String.Empty where appropriate)</li>
-          <li>"And/Or" replacement with "AndAlso/OrElse" (except for bit comparisons)</li>
-          <li>"Is Nothing" / "IsNot Nothing" standardization (replaces = Nothing and &lt;&gt; Nothing)</li>
-          <li>Error handler validation for functions with automatic insertion</li>
-          <li>Empty return path detection in Function calls with fixes</li>
-          <li>SQL parameter length validation (prevents &gt;0 length on Int/DateTime parameters)</li>
-          <li>Bulk Fix window: select / filter / apply &amp; save all fixes at once</li>
+          <li>Enforces type/prefix conventions (incl. field modifiers) - Type based variable/field/parameter prefixes (int, str, dt, obj, etc.) with field/const modifiers (g/m, gc/mc)</li>
+          <li>Adds missing As clauses &amp; default initializers - Missing 'As' clause detection with quick + combined fixes and automatic default value initialization (locals/fields)</li>
+          <li>Infers / fixes For Each variable typing - Implicit For Each variable typing &amp; renaming (adds As &amp; correct prefix, updates usages)</li>
+          <li>SQL: ensures dbo. prefix &amp; zero size for fixed-size SqlDbTypes - SQL CommandText 'dbo.' prefix enforcement and SQL parameter length validation (prevents &gt;0 length on Int/DateTime parameters)</li>
+          <li>Naming: short/underscore identifier warnings &amp; quick renames - Short name (len &lt;=3) expansion suggestions and variable names with underscore detection &amp; fix recommendations</li>
+          <li>Logical &amp; null pattern normalization (AndAlso/OrElse, Is / IsNot Nothing) - "And/Or" replacement with "AndAlso/OrElse" (except for bit comparisons) and "Is Nothing" / "IsNot Nothing" standardization (replaces = Nothing and &lt;&gt; Nothing)</li>
+          <li>Inserts error handlers &amp; missing Function returns - Error handler validation for functions with automatic insertion and empty return path detection in Function calls with fixes</li>
+          <li>String.Empty &amp; other constant usage suggestions - String literal standardization (replaces "" with String.Empty where appropriate)</li>
+          <li>Mixed logical operators warning (add parentheses)</li>
+          <li>Avoid CommandType.Text (prefer stored procedure)</li>
+          <li>Bulk Fix support for fast cleanup - Bulk Fix window: select / filter / apply &amp; save all fixes at once</li>
+          <li>Bulk Fix list: right-click "Go to line" to open the file at the diagnostic</li>
+          <li>Navigates to and selects the exact offending span (e.g., the variable for PrefixConvention) in the editor for quick fixing</li>
         </ul>
         <p><em>Compatible with Visual Studio 2019-2022 and .NET Framework projects</em></p>
         <p>Remember Ant is watching</p>
       ]]>
     </summary>
-    <published>2025-08-30T15:28:13Z</published>
-    <updated>2025-08-30T15:28:13Z</updated>
+    <published>2025-08-30T15:34:07Z</published>
+    <updated>2025-08-30T15:34:07Z</updated>
     <author>
       <name>ratajt</name>
     </author>
